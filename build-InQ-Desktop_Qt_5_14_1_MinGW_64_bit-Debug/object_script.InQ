@@ -1,0 +1,12 @@
+canvas.o
+canvasdimension.o
+credits.o
+magnifier.o
+main.o
+mainwindow.o
+qrc_resources.o
+moc_canvas.o
+moc_canvasdimension.o
+moc_credits.o
+moc_magnifier.o
+moc_mainwindow.o
