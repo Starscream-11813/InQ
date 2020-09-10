@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/inqlogo.webp</file>
+        <file>img/about.png</file>
+        <file>img/brush.png</file>
+        <file>img/color.png</file>
+        <file>img/ellipse.png</file>
+        <file>img/eraser.png</file>
+        <file>img/new.png</file>
+        <file>img/open.png</file>
+        <file>img/rectangle.png</file>
+        <file>img/save.png</file>
+        <file>img/zoom-in.png</file>
+        <file>img/floodfillicon.png</file>
+        <file>img/triangle.png</file>
+        <file>img/brushthickness.png</file>
+        <file>img/resolution.png</file>
+        <file>img/exiticon.jpg</file>
+        <file>img/straightline.png</file>
+        <file>img/hexagon.webp</file>
+        <file>img/pentagon.png</file>
+        <file>img/colorpalette1.png</file>
+        <file>img/colorpalette2.png</file>
+        <file>img/colorpalette3.png</file>
+        <file>img/colorpalette4.png</file>
+        <file>img/openfile.webp</file>
+        <file>img/newfile.png</file>
+        <file>img/circle.png</file>
+        <file>img/rectangle.webp</file>
+        <file>img/fourpointstar.png</file>
+        <file>img/fourpointstar2.png</file>
+        <file>img/arrow (1).png</file>
+        <file>img/arrow.png</file>
+    </qresource>
+</RCC>
