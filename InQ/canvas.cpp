@@ -41,6 +41,7 @@ void Canvas::init()
     setIsFilling(false);
     setIsArrow(false);
     mousePressed = false;
+    wasMousePressed = false;
 }
 
 bool Canvas::openImage()
@@ -66,6 +67,7 @@ void Canvas::mousePressEvent(QMouseEvent *e)
 
         isDrawing = true;
         mousePressed = true;
+        wasMousePressed = true;
         QColor clr=canvas.pixelColor(lastPoint);
         //clr.fromRgb(canvas.pixel(lastPoint));
         if(isFilling)
@@ -97,17 +99,18 @@ void Canvas::mouseReleaseEvent(QMouseEvent *e)
 
 void Canvas::paintEvent(QPaintEvent *e)
 {
-    static bool wasMousePressed=false;
+    //static bool wasMousePressed=false;
     QRect dirtyRect=e->rect();
     QPainter painter(this);
     painter.drawImage(dirtyRect,canvas,dirtyRect);
     if(mousePressed)
     {
-        wasMousePressed=true;
+        //wasMousePressed=true;
         if(getIsCircle())
         {
             QRect circle=QRect(firstPoint,lastPoint);
-            QPainter circlePainter(this);
+            QPainter circlePainter(this);                   //The QPainter class performs low-level painting on widgets and other paint devices.
+
             circlePainter.setPen(QPen(currentColor,brushWidth,penStyle,capStyle,joinStyle));
             circlePainter.drawEllipse(circle);
             if(isFilling)
@@ -667,7 +670,7 @@ void Canvas::floodFill(const QPoint &floodFillStartPoint, QColor floodFillColor)
             {
                 pixels.enqueue(left);
                 painter.drawPoint(left);
-                //update();
+                update();
             }
 
             QPoint right((newPoint.x()+1), newPoint.y());
