@@ -113,6 +113,7 @@ private:
     bool isFourPointStar;
     bool isArrow;
     bool isFilling;
+    bool wasMousePressed;
 
 //signals:
 
