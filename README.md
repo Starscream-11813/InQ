@@ -17,7 +17,7 @@ InQ is a sketchbook application made as the final project for CSE 4302: Object-O
 ![Brush Thickness Demo](featuresDemo/ThicknessDemo.png)
 
 ### Color Palette:
-Select one from and array of 48 basic colors. Adjust shades, hues and saturation to form custom colors. Scan a custom color from the screen.
+Select one from an array of 48 basic colors. Adjust shades, hues and saturation to form custom colors. Scan a custom color from the screen.
 
 ![Color Palette](featuresDemo/ColorPalette.png)
 ![Color Palette Demo](featuresDemo/ColorPaletteDemo.png)
