@@ -1,6 +1,12 @@
 # InQ
 InQ is a sketchbook application made as the final project for CSE 4302: Object-Oriented Programming Lab.
 
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+![IDE](https://img.shields.io/badge/IDE-Qt%20Creator%204.11.1-blue)
+![License](https://img.shields.io/badge/license-MIT-orange.svg)
+![Grade](https://img.shields.io/badge/Grade-Not%20Yet%20Graded-lightgrey)
+
+
 ## Team Members:
 * Syed Rifat Raiyan- 180041205
 * Syed Mohammad Sartaj Ekram- 180041204
