@@ -67,7 +67,7 @@ private slots:
 
 
 
-    // Shaped button
+    // Shape button
 
 
     void on_actionStraight_Line_triggered();
