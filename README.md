@@ -9,7 +9,7 @@ InQ is a sketchbook application made as the final project for CSE 4302: Object-O
 
 ## Team Members:
 * Syed Rifat Raiyan- 180041205
-* Syed Mohammad Sartaj Ekram- 180041204
+* Syed Mohammed Sartaj Ekram- 180041204
 
 ## Features:
 ### Adjustable Brush Thickness:
